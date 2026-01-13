@@ -1,0 +1,11 @@
+.env example 
+
+PORT = 3000
+NODE_ENV = development
+DATABASE_URL=
+SMTP_HOST=
+SMTP_PORT=
+SMTP_USER=
+SMTP_PASS=
+EMAIL_FROM=
+BASE_URL=
