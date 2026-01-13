@@ -1,0 +1,112 @@
+ 
+  <style>
+    body {
+      background-color: #f4f6f8;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .email-container {
+      max-width: 600px;
+      margin: 30px auto;
+      background-color: #ffffff;
+      border-radius: 6px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .header {
+      background-color: #1f2937;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .content {
+      padding: 25px;
+      color: #333333;
+      line-height: 1.6;
+    }
+
+    .alert {
+      background-color: #fff4e5;
+      border-left: 4px solid #f59e0b;
+      padding: 12px;
+      margin: 20px 0;
+      font-size: 14px;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #2563eb;
+      color: #ffffff !important;
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 4px;
+      margin: 20px 0;
+      font-weight: bold;
+    }
+
+    .footer {
+      font-size: 12px;
+      color: #6b7280;
+      padding: 20px;
+      text-align: center;
+      background-color: #f9fafb;
+    }
+
+    .training {
+      color: #dc2626;
+      font-weight: bold;
+      font-size: 12px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="email-container">
+    <div class="header">
+      <h2>SecureCloud Systems</h2>
+      <p>Account Security Notification</p>
+    </div>
+
+    <div class="content">
+      <p>Hello,</p>
+
+      <p>
+        We detected unusual activity on your SecureCloud account.
+        For your protection, access to some features has been temporarily limited.
+      </p>
+
+      <div class="alert">
+        ⚠️ Please verify your account within <strong>24 hours</strong> to avoid permanent suspension.
+      </div>
+
+      <p style="text-align:center;">
+  <a href="{{trackingLink}}" class="button">Verify Account</a>
+</p>
+
+      <p>
+        If you do not complete this verification, your account may be disabled automatically.
+      </p>
+
+      <p>
+        Regards,<br />
+        SecureCloud Security Team
+      </p>
+
+      <p class="training">
+        ⚠️ This email is part of a SECURITY AWARENESS TRAINING simulation.
+      </p>
+    </div>
+
+    <div class="footer">
+      © 2026 SecureCloud Systems · All rights reserved<br />
+      This is a simulated email for training purposes only.
+    </div>
+  </div>
+</body>
+
+
